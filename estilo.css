@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    height: 27rem;
+    background: #000000;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.ttl {
+    color: white;
+    margin-left: 10%;
+}
+
+.ttl h1 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0),
+    0 0 0.9em rgba(255, 255, 255, 0.596),
+    0 0 0.1em rgb(74, 63, 63);
+}
+
+.ttl p {
+    margin-top: 1rem;
+    font-size: small;
+}
+
+.img_TS img{  
+    height: 25rem;
+}
+
+main {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ul {
+    font-size: large;
+    font-weight: 500;
+    font-size: large;
+    list-style: square;
+}
+
+li {
+    padding: 0.1rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+#mid {
+    font-family: Arial;
+    font-weight: bolder;
+}
+
+#red {
+    font-family: Fjalla One;
+    font-style: italic;
+}
+
+#ts {
+    font-family: Sacramento;
+}
+
+#fearless {
+    font-family: Montserrat;
+}
+
+#sn {
+    font-family: Rochester;
+}
+
+#a1989 {
+    font-family: Permanent Marker;
+}
+
+#lov {
+    font-family: Satisfy;
+}
+
+#rep {
+    font-family: Unifraktur Maguntia;
+    font-weight: bold;
+}
+
+#folk {
+    font-family: IM Fell DW Pica;
+    font-style: italic;
+}
+
+#ttpd {
+    font-family: Playfair Display;
+}
+
+.image_album {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.imagenes {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.album {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.imagenes img {
+    border-radius: 0.5rem;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.exitos {
+    display: flex;
+}
+
+.exitos ol {
+    width: 50%;
+    margin: 0 15rem;
+}
+
+.ref-cont {
+    background-color: #007d2a;
+    color: white;
+    margin: 1rem auto;
+    padding: 1.3rem;
+    text-transform: none;
+}
+
+.ref {
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ref a {
+    text-transform: none;
+    color: whitesmoke;
+}
+
+.fin-cont {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.final {
+    margin-top: 2rem;
+    justify-content: space-between;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.formu {
+    width: 50%;
+}
+
+.datos {
+    width: 50%;
+    text-align: justify;
+}
